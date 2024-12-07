@@ -19,8 +19,8 @@ HAL_StatusTypeDef TSL2572_Init(TSL2572 *tsl, I2C_HandleTypeDef *userHandle,
 	 * Field Value    |     ALS GAIN VALUE
 	 *      00        |           1x gain
 	 *      01        |           2x gain
-	 *      10		    |           8x gain
-	 *      11		    |           120x gain
+	 *      10	  |           8x gain
+	 *      11	  |           120x gain
 	 */
 	return TSL2572_WriteByte(tsl, TSL2572_COMMAND_BIT | TSL2572_REG_CONTROL, 0x00); // 1x gain
 }
