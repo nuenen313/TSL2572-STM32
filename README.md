@@ -1,3 +1,5 @@
+# [TSL2572 Light-to-Digital Converter Datasheet](https://look.ams-osram.com/m/7501e2380e896801/original/TSL2572-DS000178.pdf)
+
 # TSL2572-STM32
 STM32 library for the TSL2572 light sensor. Returns a value in lux. Usage:
 
